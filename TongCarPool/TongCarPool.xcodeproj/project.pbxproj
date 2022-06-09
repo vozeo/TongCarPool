@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5213D4B82850CEB4000D4B90 /* ScheduleNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5213D4B72850CEB4000D4B90 /* ScheduleNetwork.swift */; };
+		5213D4B92850CEB4000D4B90 /* ScheduleNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5213D4B72850CEB4000D4B90 /* ScheduleNetwork.swift */; };
+		525F0569284F322A00D99ED9 /* MapItemPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 525F0568284F322A00D99ED9 /* MapItemPicker */; };
+		525F056B284F461F00D99ED9 /* UserApplyViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F056A284F461F00D99ED9 /* UserApplyViewContainer.swift */; };
+		525F056C284F461F00D99ED9 /* UserApplyViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F056A284F461F00D99ED9 /* UserApplyViewContainer.swift */; };
+		525F05722850299700D99ED9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F05712850299700D99ED9 /* Network.swift */; };
+		525F05732850299700D99ED9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F05712850299700D99ED9 /* Network.swift */; };
+		525F057628503A1F00D99ED9 /* UserNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F057528503A1F00D99ED9 /* UserNetwork.swift */; };
+		525F057728503A1F00D99ED9 /* UserNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F057528503A1F00D99ED9 /* UserNetwork.swift */; };
+		52679191285188D70095A865 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = 52679190285188D70095A865 /* LoremSwiftum */; };
+		526791932851DAF50095A865 /* TestNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526791922851DAF50095A865 /* TestNetwork.swift */; };
+		526791942851DAF50095A865 /* TestNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526791922851DAF50095A865 /* TestNetwork.swift */; };
+		526EEAE12847ADD900EF6C5A /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEAE02847ADD900EF6C5A /* Tests_iOS.swift */; };
+		526EEAE32847ADD900EF6C5A /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEAE22847ADD900EF6C5A /* Tests_iOSLaunchTests.swift */; };
+		526EEAED2847ADD900EF6C5A /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEAEC2847ADD900EF6C5A /* Tests_macOS.swift */; };
+		526EEAEF2847ADD900EF6C5A /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEAEE2847ADD900EF6C5A /* Tests_macOSLaunchTests.swift */; };
+		526EEAF02847ADD900EF6C5A /* TongCarPoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEAC82847ADD800EF6C5A /* TongCarPoolApp.swift */; };
+		526EEAF12847ADD900EF6C5A /* TongCarPoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEAC82847ADD800EF6C5A /* TongCarPoolApp.swift */; };
+		526EEAF42847ADD900EF6C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526EEACA2847ADD900EF6C5A /* Assets.xcassets */; };
+		526EEAF52847ADD900EF6C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526EEACA2847ADD900EF6C5A /* Assets.xcassets */; };
+		526EEB0C2847AFF700EF6C5A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB0B2847AFF700EF6C5A /* User.swift */; };
+		526EEB0D2847AFF700EF6C5A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB0B2847AFF700EF6C5A /* User.swift */; };
+		526EEB0F2847B00B00EF6C5A /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB0E2847B00B00EF6C5A /* Notification.swift */; };
+		526EEB102847B00B00EF6C5A /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB0E2847B00B00EF6C5A /* Notification.swift */; };
+		526EEB122847B04F00EF6C5A /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB112847B04F00EF6C5A /* Schedule.swift */; };
+		526EEB132847B04F00EF6C5A /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB112847B04F00EF6C5A /* Schedule.swift */; };
+		526EEB152847B08B00EF6C5A /* Participation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB142847B08B00EF6C5A /* Participation.swift */; };
+		526EEB162847B08B00EF6C5A /* Participation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB142847B08B00EF6C5A /* Participation.swift */; };
+		526EEB182847BA6E00EF6C5A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB172847BA6E00EF6C5A /* ScheduleView.swift */; };
+		526EEB192847BA6E00EF6C5A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB172847BA6E00EF6C5A /* ScheduleView.swift */; };
+		526EEB1B28483BA700EF6C5A /* ScheduleViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB1A28483BA700EF6C5A /* ScheduleViewContainer.swift */; };
+		526EEB1C28483BA700EF6C5A /* ScheduleViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB1A28483BA700EF6C5A /* ScheduleViewContainer.swift */; };
+		526EEB1E2848431500EF6C5A /* RootViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB1D2848431500EF6C5A /* RootViewContainer.swift */; };
+		526EEB1F2848431500EF6C5A /* RootViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB1D2848431500EF6C5A /* RootViewContainer.swift */; };
+		526EEB2128484ACF00EF6C5A /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB2028484ACF00EF6C5A /* UserView.swift */; };
+		526EEB2228484ACF00EF6C5A /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB2028484ACF00EF6C5A /* UserView.swift */; };
+		526EEB252848564000EF6C5A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB242848564000EF6C5A /* WelcomeView.swift */; };
+		526EEB262848564000EF6C5A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB242848564000EF6C5A /* WelcomeView.swift */; };
+		526EEB282848568100EF6C5A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB272848568100EF6C5A /* ButtonView.swift */; };
+		526EEB292848568100EF6C5A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB272848568100EF6C5A /* ButtonView.swift */; };
+		526EEB2B284856E400EF6C5A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB2A284856E400EF6C5A /* LoginView.swift */; };
+		526EEB2C284856E400EF6C5A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB2A284856E400EF6C5A /* LoginView.swift */; };
+		526EEB2E284CDF0200EF6C5A /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB2D284CDF0200EF6C5A /* ChangePasswordView.swift */; };
+		526EEB2F284CDF0200EF6C5A /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB2D284CDF0200EF6C5A /* ChangePasswordView.swift */; };
+		526EEB31284CE05400EF6C5A /* PersonInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB30284CE05400EF6C5A /* PersonInformationView.swift */; };
+		526EEB32284CE05400EF6C5A /* PersonInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB30284CE05400EF6C5A /* PersonInformationView.swift */; };
+		526EEB35284D7E3E00EF6C5A /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = 526EEB34284D7E3E00EF6C5A /* SlideOverCard */; };
+		526EEB37284D81D900EF6C5A /* ScheduleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB36284D81D900EF6C5A /* ScheduleDetailView.swift */; };
+		526EEB38284D81D900EF6C5A /* ScheduleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB36284D81D900EF6C5A /* ScheduleDetailView.swift */; };
+		526EEB3A284DB22000EF6C5A /* MyScheduleViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB39284DB22000EF6C5A /* MyScheduleViewContainer.swift */; };
+		526EEB3B284DB22000EF6C5A /* MyScheduleViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB39284DB22000EF6C5A /* MyScheduleViewContainer.swift */; };
+		526EEB3D284DE2CE00EF6C5A /* ApplyScheduleViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB3C284DE2CE00EF6C5A /* ApplyScheduleViewContainer.swift */; };
+		526EEB3E284DE2CE00EF6C5A /* ApplyScheduleViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB3C284DE2CE00EF6C5A /* ApplyScheduleViewContainer.swift */; };
+		526EEB40284DE95300EF6C5A /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB3F284DE95300EF6C5A /* AddButton.swift */; };
+		526EEB41284DE95300EF6C5A /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB3F284DE95300EF6C5A /* AddButton.swift */; };
+		526EEB43284DEDDD00EF6C5A /* ApplyScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB42284DEDDD00EF6C5A /* ApplyScheduleView.swift */; };
+		526EEB44284DEDDD00EF6C5A /* ApplyScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB42284DEDDD00EF6C5A /* ApplyScheduleView.swift */; };
+		526EEB46284E028D00EF6C5A /* UserViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB45284E028D00EF6C5A /* UserViewContainer.swift */; };
+		526EEB47284E028D00EF6C5A /* UserViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB45284E028D00EF6C5A /* UserViewContainer.swift */; };
+		526EEB49284F2D9700EF6C5A /* EditScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB48284F2D9700EF6C5A /* EditScheduleView.swift */; };
+		526EEB4A284F2D9700EF6C5A /* EditScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EEB48284F2D9700EF6C5A /* EditScheduleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		526EEADD2847ADD900EF6C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526EEAC32847ADD800EF6C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526EEACE2847ADD900EF6C5A;
+			remoteInfo = "TongCarPool (iOS)";
+		};
+		526EEAE92847ADD900EF6C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526EEAC32847ADD800EF6C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526EEAD42847ADD900EF6C5A;
+			remoteInfo = "TongCarPool (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5213D4B72850CEB4000D4B90 /* ScheduleNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleNetwork.swift; sourceTree = "<group>"; };
+		525F056A284F461F00D99ED9 /* UserApplyViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApplyViewContainer.swift; sourceTree = "<group>"; };
+		525F05712850299700D99ED9 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		525F057528503A1F00D99ED9 /* UserNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNetwork.swift; sourceTree = "<group>"; };
+		526791922851DAF50095A865 /* TestNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNetwork.swift; sourceTree = "<group>"; };
+		526EEAC82847ADD800EF6C5A /* TongCarPoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TongCarPoolApp.swift; sourceTree = "<group>"; };
+		526EEACA2847ADD900EF6C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		526EEACF2847ADD900EF6C5A /* TongCarPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TongCarPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526EEAD52847ADD900EF6C5A /* TongCarPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TongCarPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526EEAD72847ADD900EF6C5A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		526EEADC2847ADD900EF6C5A /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526EEAE02847ADD900EF6C5A /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		526EEAE22847ADD900EF6C5A /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		526EEAE82847ADD900EF6C5A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526EEAEC2847ADD900EF6C5A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		526EEAEE2847ADD900EF6C5A /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		526EEB0B2847AFF700EF6C5A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		526EEB0E2847B00B00EF6C5A /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		526EEB112847B04F00EF6C5A /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		526EEB142847B08B00EF6C5A /* Participation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participation.swift; sourceTree = "<group>"; };
+		526EEB172847BA6E00EF6C5A /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		526EEB1A28483BA700EF6C5A /* ScheduleViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewContainer.swift; sourceTree = "<group>"; };
+		526EEB1D2848431500EF6C5A /* RootViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewContainer.swift; sourceTree = "<group>"; };
+		526EEB2028484ACF00EF6C5A /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		526EEB242848564000EF6C5A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		526EEB272848568100EF6C5A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		526EEB2A284856E400EF6C5A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		526EEB2D284CDF0200EF6C5A /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
+		526EEB30284CE05400EF6C5A /* PersonInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInformationView.swift; sourceTree = "<group>"; };
+		526EEB36284D81D900EF6C5A /* ScheduleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailView.swift; sourceTree = "<group>"; };
+		526EEB39284DB22000EF6C5A /* MyScheduleViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScheduleViewContainer.swift; sourceTree = "<group>"; };
+		526EEB3C284DE2CE00EF6C5A /* ApplyScheduleViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyScheduleViewContainer.swift; sourceTree = "<group>"; };
+		526EEB3F284DE95300EF6C5A /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		526EEB42284DEDDD00EF6C5A /* ApplyScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyScheduleView.swift; sourceTree = "<group>"; };
+		526EEB45284E028D00EF6C5A /* UserViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewContainer.swift; sourceTree = "<group>"; };
+		526EEB48284F2D9700EF6C5A /* EditScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScheduleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526EEACC2847ADD900EF6C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525F0569284F322A00D99ED9 /* MapItemPicker in Frameworks */,
+				526EEB35284D7E3E00EF6C5A /* SlideOverCard in Frameworks */,
+				52679191285188D70095A865 /* LoremSwiftum in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526EEAD22847ADD900EF6C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526EEAD92847ADD900EF6C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526EEAE52847ADD900EF6C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525F05702850296700D99ED9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				525F05712850299700D99ED9 /* Network.swift */,
+				525F057528503A1F00D99ED9 /* UserNetwork.swift */,
+				5213D4B72850CEB4000D4B90 /* ScheduleNetwork.swift */,
+				526791922851DAF50095A865 /* TestNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		526EEAC22847ADD800EF6C5A = {
+			isa = PBXGroup;
+			children = (
+				526EEAC72847ADD800EF6C5A /* Shared */,
+				526EEAD62847ADD900EF6C5A /* macOS */,
+				526EEADF2847ADD900EF6C5A /* Tests iOS */,
+				526EEAEB2847ADD900EF6C5A /* Tests macOS */,
+				526EEAD02847ADD900EF6C5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		526EEAC72847ADD800EF6C5A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				525F05702850296700D99ED9 /* Network */,
+				526EEB232848561F00EF6C5A /* Screen */,
+				526EEB0A2847AF5300EF6C5A /* Containers */,
+				526EEB092847AF4D00EF6C5A /* Views */,
+				526EEB072847AF1600EF6C5A /* Model */,
+				526EEAC82847ADD800EF6C5A /* TongCarPoolApp.swift */,
+				526EEACA2847ADD900EF6C5A /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		526EEAD02847ADD900EF6C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526EEACF2847ADD900EF6C5A /* TongCarPool.app */,
+				526EEAD52847ADD900EF6C5A /* TongCarPool.app */,
+				526EEADC2847ADD900EF6C5A /* Tests iOS.xctest */,
+				526EEAE82847ADD900EF6C5A /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526EEAD62847ADD900EF6C5A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				526EEAD72847ADD900EF6C5A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		526EEADF2847ADD900EF6C5A /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				526EEAE02847ADD900EF6C5A /* Tests_iOS.swift */,
+				526EEAE22847ADD900EF6C5A /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		526EEAEB2847ADD900EF6C5A /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				526EEAEC2847ADD900EF6C5A /* Tests_macOS.swift */,
+				526EEAEE2847ADD900EF6C5A /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		526EEB072847AF1600EF6C5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				526EEB0B2847AFF700EF6C5A /* User.swift */,
+				526EEB0E2847B00B00EF6C5A /* Notification.swift */,
+				526EEB112847B04F00EF6C5A /* Schedule.swift */,
+				526EEB142847B08B00EF6C5A /* Participation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		526EEB092847AF4D00EF6C5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				526EEB172847BA6E00EF6C5A /* ScheduleView.swift */,
+				526EEB2028484ACF00EF6C5A /* UserView.swift */,
+				526EEB272848568100EF6C5A /* ButtonView.swift */,
+				526EEB3F284DE95300EF6C5A /* AddButton.swift */,
+				526EEB42284DEDDD00EF6C5A /* ApplyScheduleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		526EEB0A2847AF5300EF6C5A /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				526EEB1A28483BA700EF6C5A /* ScheduleViewContainer.swift */,
+				526EEB1D2848431500EF6C5A /* RootViewContainer.swift */,
+				526EEB39284DB22000EF6C5A /* MyScheduleViewContainer.swift */,
+				526EEB3C284DE2CE00EF6C5A /* ApplyScheduleViewContainer.swift */,
+				526EEB45284E028D00EF6C5A /* UserViewContainer.swift */,
+				525F056A284F461F00D99ED9 /* UserApplyViewContainer.swift */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		526EEB232848561F00EF6C5A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				526EEB242848564000EF6C5A /* WelcomeView.swift */,
+				526EEB36284D81D900EF6C5A /* ScheduleDetailView.swift */,
+				526EEB2A284856E400EF6C5A /* LoginView.swift */,
+				526EEB2D284CDF0200EF6C5A /* ChangePasswordView.swift */,
+				526EEB30284CE05400EF6C5A /* PersonInformationView.swift */,
+				526EEB48284F2D9700EF6C5A /* EditScheduleView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526EEACE2847ADD900EF6C5A /* TongCarPool (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526EEAF82847ADD900EF6C5A /* Build configuration list for PBXNativeTarget "TongCarPool (iOS)" */;
+			buildPhases = (
+				526EEACB2847ADD900EF6C5A /* Sources */,
+				526EEACC2847ADD900EF6C5A /* Frameworks */,
+				526EEACD2847ADD900EF6C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TongCarPool (iOS)";
+			packageProductDependencies = (
+				526EEB34284D7E3E00EF6C5A /* SlideOverCard */,
+				525F0568284F322A00D99ED9 /* MapItemPicker */,
+				52679190285188D70095A865 /* LoremSwiftum */,
+			);
+			productName = "TongCarPool (iOS)";
+			productReference = 526EEACF2847ADD900EF6C5A /* TongCarPool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		526EEAD42847ADD900EF6C5A /* TongCarPool (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526EEAFB2847ADD900EF6C5A /* Build configuration list for PBXNativeTarget "TongCarPool (macOS)" */;
+			buildPhases = (
+				526EEAD12847ADD900EF6C5A /* Sources */,
+				526EEAD22847ADD900EF6C5A /* Frameworks */,
+				526EEAD32847ADD900EF6C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TongCarPool (macOS)";
+			productName = "TongCarPool (macOS)";
+			productReference = 526EEAD52847ADD900EF6C5A /* TongCarPool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		526EEADB2847ADD900EF6C5A /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526EEAFE2847ADD900EF6C5A /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				526EEAD82847ADD900EF6C5A /* Sources */,
+				526EEAD92847ADD900EF6C5A /* Frameworks */,
+				526EEADA2847ADD900EF6C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526EEADE2847ADD900EF6C5A /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 526EEADC2847ADD900EF6C5A /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		526EEAE72847ADD900EF6C5A /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526EEB012847ADD900EF6C5A /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				526EEAE42847ADD900EF6C5A /* Sources */,
+				526EEAE52847ADD900EF6C5A /* Frameworks */,
+				526EEAE62847ADD900EF6C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526EEAEA2847ADD900EF6C5A /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 526EEAE82847ADD900EF6C5A /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526EEAC32847ADD800EF6C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					526EEACE2847ADD900EF6C5A = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					526EEAD42847ADD900EF6C5A = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					526EEADB2847ADD900EF6C5A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 526EEACE2847ADD900EF6C5A;
+					};
+					526EEAE72847ADD900EF6C5A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 526EEAD42847ADD900EF6C5A;
+					};
+				};
+			};
+			buildConfigurationList = 526EEAC62847ADD800EF6C5A /* Build configuration list for PBXProject "TongCarPool" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 526EEAC22847ADD800EF6C5A;
+			packageReferences = (
+				526EEB33284D7E3E00EF6C5A /* XCRemoteSwiftPackageReference "SlideOverCard" */,
+				525F0567284F322A00D99ED9 /* XCRemoteSwiftPackageReference "swiftui-map-item-picker" */,
+				5267918F285188D70095A865 /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
+			);
+			productRefGroup = 526EEAD02847ADD900EF6C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526EEACE2847ADD900EF6C5A /* TongCarPool (iOS) */,
+				526EEAD42847ADD900EF6C5A /* TongCarPool (macOS) */,
+				526EEADB2847ADD900EF6C5A /* Tests iOS */,
+				526EEAE72847ADD900EF6C5A /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526EEACD2847ADD900EF6C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526EEAF42847ADD900EF6C5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526EEAD32847ADD900EF6C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526EEAF52847ADD900EF6C5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526EEADA2847ADD900EF6C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526EEAE62847ADD900EF6C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526EEACB2847ADD900EF6C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526EEB43284DEDDD00EF6C5A /* ApplyScheduleView.swift in Sources */,
+				5213D4B82850CEB4000D4B90 /* ScheduleNetwork.swift in Sources */,
+				526EEB0F2847B00B00EF6C5A /* Notification.swift in Sources */,
+				526EEB2E284CDF0200EF6C5A /* ChangePasswordView.swift in Sources */,
+				526EEB46284E028D00EF6C5A /* UserViewContainer.swift in Sources */,
+				526EEB3D284DE2CE00EF6C5A /* ApplyScheduleViewContainer.swift in Sources */,
+				526EEB282848568100EF6C5A /* ButtonView.swift in Sources */,
+				526EEAF02847ADD900EF6C5A /* TongCarPoolApp.swift in Sources */,
+				526EEB182847BA6E00EF6C5A /* ScheduleView.swift in Sources */,
+				526EEB122847B04F00EF6C5A /* Schedule.swift in Sources */,
+				526EEB1E2848431500EF6C5A /* RootViewContainer.swift in Sources */,
+				526EEB31284CE05400EF6C5A /* PersonInformationView.swift in Sources */,
+				526EEB252848564000EF6C5A /* WelcomeView.swift in Sources */,
+				526EEB1B28483BA700EF6C5A /* ScheduleViewContainer.swift in Sources */,
+				526EEB2128484ACF00EF6C5A /* UserView.swift in Sources */,
+				526EEB2B284856E400EF6C5A /* LoginView.swift in Sources */,
+				526EEB0C2847AFF700EF6C5A /* User.swift in Sources */,
+				526EEB37284D81D900EF6C5A /* ScheduleDetailView.swift in Sources */,
+				526EEB49284F2D9700EF6C5A /* EditScheduleView.swift in Sources */,
+				525F056B284F461F00D99ED9 /* UserApplyViewContainer.swift in Sources */,
+				526EEB3A284DB22000EF6C5A /* MyScheduleViewContainer.swift in Sources */,
+				526EEB152847B08B00EF6C5A /* Participation.swift in Sources */,
+				526791932851DAF50095A865 /* TestNetwork.swift in Sources */,
+				525F057628503A1F00D99ED9 /* UserNetwork.swift in Sources */,
+				526EEB40284DE95300EF6C5A /* AddButton.swift in Sources */,
+				525F05722850299700D99ED9 /* Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526EEAD12847ADD900EF6C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526EEB44284DEDDD00EF6C5A /* ApplyScheduleView.swift in Sources */,
+				5213D4B92850CEB4000D4B90 /* ScheduleNetwork.swift in Sources */,
+				526EEB102847B00B00EF6C5A /* Notification.swift in Sources */,
+				526EEB2F284CDF0200EF6C5A /* ChangePasswordView.swift in Sources */,
+				526EEB47284E028D00EF6C5A /* UserViewContainer.swift in Sources */,
+				526EEB3E284DE2CE00EF6C5A /* ApplyScheduleViewContainer.swift in Sources */,
+				526EEB292848568100EF6C5A /* ButtonView.swift in Sources */,
+				526EEAF12847ADD900EF6C5A /* TongCarPoolApp.swift in Sources */,
+				526EEB192847BA6E00EF6C5A /* ScheduleView.swift in Sources */,
+				526EEB132847B04F00EF6C5A /* Schedule.swift in Sources */,
+				526EEB1F2848431500EF6C5A /* RootViewContainer.swift in Sources */,
+				526EEB32284CE05400EF6C5A /* PersonInformationView.swift in Sources */,
+				526EEB262848564000EF6C5A /* WelcomeView.swift in Sources */,
+				526EEB1C28483BA700EF6C5A /* ScheduleViewContainer.swift in Sources */,
+				526EEB2228484ACF00EF6C5A /* UserView.swift in Sources */,
+				526EEB2C284856E400EF6C5A /* LoginView.swift in Sources */,
+				526EEB0D2847AFF700EF6C5A /* User.swift in Sources */,
+				526EEB38284D81D900EF6C5A /* ScheduleDetailView.swift in Sources */,
+				526EEB4A284F2D9700EF6C5A /* EditScheduleView.swift in Sources */,
+				525F056C284F461F00D99ED9 /* UserApplyViewContainer.swift in Sources */,
+				526EEB3B284DB22000EF6C5A /* MyScheduleViewContainer.swift in Sources */,
+				526EEB162847B08B00EF6C5A /* Participation.swift in Sources */,
+				526791942851DAF50095A865 /* TestNetwork.swift in Sources */,
+				525F057728503A1F00D99ED9 /* UserNetwork.swift in Sources */,
+				526EEB41284DE95300EF6C5A /* AddButton.swift in Sources */,
+				525F05732850299700D99ED9 /* Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526EEAD82847ADD900EF6C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526EEAE32847ADD900EF6C5A /* Tests_iOSLaunchTests.swift in Sources */,
+				526EEAE12847ADD900EF6C5A /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526EEAE42847ADD900EF6C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526EEAEF2847ADD900EF6C5A /* Tests_macOSLaunchTests.swift in Sources */,
+				526EEAED2847ADD900EF6C5A /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		526EEADE2847ADD900EF6C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526EEACE2847ADD900EF6C5A /* TongCarPool (iOS) */;
+			targetProxy = 526EEADD2847ADD900EF6C5A /* PBXContainerItemProxy */;
+		};
+		526EEAEA2847ADD900EF6C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526EEAD42847ADD900EF6C5A /* TongCarPool (macOS) */;
+			targetProxy = 526EEAE92847ADD900EF6C5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		526EEAF62847ADD900EF6C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		526EEAF72847ADD900EF6C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		526EEAF92847ADD900EF6C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CNJD48929;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vozeo.TongCarPool;
+				PRODUCT_NAME = TongCarPool;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		526EEAFA2847ADD900EF6C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CNJD48929;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vozeo.TongCarPool;
+				PRODUCT_NAME = TongCarPool;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526EEAFC2847ADD900EF6C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CNJD48929;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vozeo.TongCarPool;
+				PRODUCT_NAME = TongCarPool;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		526EEAFD2847ADD900EF6C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CNJD48929;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vozeo.TongCarPool;
+				PRODUCT_NAME = TongCarPool;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		526EEAFF2847ADD900EF6C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CNJD48929;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vozeo.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TongCarPool (iOS)";
+			};
+			name = Debug;
+		};
+		526EEB002847ADD900EF6C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CNJD48929;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vozeo.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TongCarPool (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526EEB022847ADD900EF6C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CNJD48929;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vozeo.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TongCarPool (macOS)";
+			};
+			name = Debug;
+		};
+		526EEB032847ADD900EF6C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CNJD48929;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vozeo.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TongCarPool (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526EEAC62847ADD800EF6C5A /* Build configuration list for PBXProject "TongCarPool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526EEAF62847ADD900EF6C5A /* Debug */,
+				526EEAF72847ADD900EF6C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526EEAF82847ADD900EF6C5A /* Build configuration list for PBXNativeTarget "TongCarPool (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526EEAF92847ADD900EF6C5A /* Debug */,
+				526EEAFA2847ADD900EF6C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526EEAFB2847ADD900EF6C5A /* Build configuration list for PBXNativeTarget "TongCarPool (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526EEAFC2847ADD900EF6C5A /* Debug */,
+				526EEAFD2847ADD900EF6C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526EEAFE2847ADD900EF6C5A /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526EEAFF2847ADD900EF6C5A /* Debug */,
+				526EEB002847ADD900EF6C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526EEB012847ADD900EF6C5A /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526EEB022847ADD900EF6C5A /* Debug */,
+				526EEB032847ADD900EF6C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		525F0567284F322A00D99ED9 /* XCRemoteSwiftPackageReference "swiftui-map-item-picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-map-item-picker.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 3.0.0;
+				minimumVersion = 2.0.0;
+			};
+		};
+		5267918F285188D70095A865 /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		526EEB33284D7E3E00EF6C5A /* XCRemoteSwiftPackageReference "SlideOverCard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joogps/SlideOverCard.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 3.0.0;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		525F0568284F322A00D99ED9 /* MapItemPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 525F0567284F322A00D99ED9 /* XCRemoteSwiftPackageReference "swiftui-map-item-picker" */;
+			productName = MapItemPicker;
+		};
+		52679190285188D70095A865 /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5267918F285188D70095A865 /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
+		};
+		526EEB34284D7E3E00EF6C5A /* SlideOverCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 526EEB33284D7E3E00EF6C5A /* XCRemoteSwiftPackageReference "SlideOverCard" */;
+			productName = SlideOverCard;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 526EEAC32847ADD800EF6C5A /* Project object */;
+}
